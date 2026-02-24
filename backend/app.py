@@ -32,7 +32,7 @@ Location: Dhule, Maharashtra, India
 Email: golaitsnehal03@gmail.com
 Phone: +91-9665810281
 GitHub: https://github.com/Snehal-Golait
-LinkedIn: https://www.linkedin.com/in/snehal-golait
+LinkedIn: https://www.linkedin.com/in/snehal-golait-4333b9260
 
 === EDUCATION ===
 - B.Tech in Information Technology
@@ -305,4 +305,5 @@ if __name__ == "__main__":
     init_db()
     print("✅ Portfolio AI Chat Backend running on http://localhost:8000")
     print(f"✅ Using model: {OPENROUTER_MODEL}")
-    app.run(host="0.0.0.0", port=8000, debug=True)
+    app.run(host="0.0.0.0", port=5000, debug=True)
+    
