@@ -38,7 +38,7 @@ LinkedIn: https://www.linkedin.com/in/snehal-golait
 - B.Tech in Information Technology
 - SVKM's Institute of Technology, Dhule (DBATU University)
 - Duration: December 2022 – June 2026
-- CGPA: 8.01 / 10
+- CGPA: 7.88 / 10
 
 === PROFESSIONAL SUMMARY ===
 Final-year B.Tech IT student with hands-on experience across the full software development lifecycle.
@@ -271,8 +271,8 @@ def generate_fallback_response(message: str) -> str:
         )
     elif any(x in m for x in ["cgpa", "grade", "gpa", "score", "education", "degree", "college", "university"]):
         return (
-            "Snehal is pursuing a **B.Tech in Information Technology** at SVKM's Institute of Technology, Dhule (DBATU University), graduating in June 2026, "
-            "with a CGPA of **8.01 / 10**."
+            "Snehal is a **B.Tech  graduate in Information Technology** from  SVKM's Institute of Technology, Dhule (DBATU University), having completed her degree in June 2026,"
+             "with a CGPA of **7.88 / 10**."
         )
     elif any(x in m for x in ["intern", "experience", "work", "job"]):
         return (
