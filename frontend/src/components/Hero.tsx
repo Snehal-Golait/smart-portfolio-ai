@@ -85,7 +85,7 @@ export default function Hero() {
           marginTop: '1.8rem', maxWidth: 520,
           animation: 'fadeUp 0.6s 0.65s both',
         }}>
-          Final-year B.Tech IT student passionate about building intelligent,
+          Motivated B.Tech IT graduate, passionate about building intelligent,
           scalable systems. From training CNNs to architecting REST APIs —
           I thrive at the intersection of AI and real-world engineering.
         </p>
@@ -164,7 +164,7 @@ export default function Hero() {
             background: 'var(--surface2)', border: '1px solid var(--border)',
             padding: '0.9rem 1.2rem',
           }}>
-            <div style={{ fontFamily: 'var(--font-code)', fontSize: '1.8rem', fontWeight: 700, color: 'var(--accent)', lineHeight: 1 }}>8.01</div>
+            <div style={{ fontFamily: 'var(--font-code)', fontSize: '1.8rem', fontWeight: 700, color: 'var(--accent)', lineHeight: 1 }}>7.88</div>
             <div style={{ fontFamily: 'var(--font-mono)', fontSize: '0.65rem', color: 'var(--muted)', letterSpacing: '1px' }}>CGPA / 10</div>
           </div>
 
