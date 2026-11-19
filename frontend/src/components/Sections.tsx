@@ -13,7 +13,7 @@ export function About() {
         <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '4rem', alignItems: 'start' }}>
           <div>
             {[
-              "I'm a final-year Information Technology student at SVKM's Institute of Technology, Dhule, with a strong foundation in full-stack web development, machine learning, and cloud infrastructure.",
+              "I'm a B.Tech graduate in Information Technology from SVKM's Institute of Technology, Dhule, with a strong foundation in full-stack web development, machine learning, and cloud infrastructure.",
               "I've worked across the entire software lifecycle — from designing REST APIs and database schemas, to building responsive frontends and deploying on AWS. I'm particularly drawn to applying AI to solve tangible, real-world problems.",
               "I actively leverage AI-assisted tooling to accelerate my workflow and believe in writing code that's clean, maintainable, and production-ready from day one.",
             ].map((p, i) => (
@@ -34,7 +34,7 @@ export function About() {
               </p>
               <p style={{ fontFamily: 'var(--font-mono)', fontSize: '0.72rem', color: 'var(--muted)' }}>Dec 2022 – June 2026</p>
               <div style={{ fontFamily: 'var(--font-code)', fontSize: '1.5rem', color: 'var(--accent3)', marginTop: '0.7rem', fontWeight: 700 }}>
-                8.01 <span style={{ fontSize: '0.9rem', color: 'var(--muted)' }}>/ 10 CGPA</span>
+                7.88 <span style={{ fontSize: '0.9rem', color: 'var(--muted)' }}>/ 10 CGPA</span>
               </div>
             </div>
           </div>
@@ -79,7 +79,7 @@ export function Experience() {
       color: 'var(--accent)',
     },
     {
-      period: '2022 — PRESENT',
+      period: '2022 — 2026',
       role: 'Member, ACM Student Chapter',
       org: 'SVKM\'s Institute of Technology · ISTE Member',
       points: [
@@ -229,7 +229,7 @@ export function Footer() {
       flexWrap: 'wrap', gap: '1rem',
     }}>
       <span style={{ color: 'var(--accent)', fontWeight: 700 }}>SG.dev</span>
-      <span>Snehal Golait · Dhule, Maharashtra · </span>
+      <span>Snehal Golait · Pune, Maharashtra · </span>
       <span>© 2026 </span>
     </footer>
   );
